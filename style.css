@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  margin-top: 14px;
+  display: flex;
+  padding-left: 56px;
+  padding-right: 48px;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  gap: 39px;
+  align-items: center;
+}
+.logo__text {
+  font-size: 52px;
+}
+
+.menu {
+  font-size: 30px;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.sec_2 {
+  padding-left: 165px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_block {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-top: 192px;
+  width: 650px;
+}
+
+.hands {
+  font-size: 40px;
+  width: 650px;
+}
+
+.weCreate {
+  width: 322px;
+  font-size: 30px;
+}
+
+.but_bucket {
+  margin-top: 91px;
+  font-size: 28px;
+  width: 295px;
+  height: 77px;
+  border: none;
+  border-radius: 40px;
+  background: #C1D9B5;
+  box-shadow: 0px 4px 4px 0px rgba(196, 224, 183, 0);
+}
+
+.flowers_images {
+  width: 100%;
+  position: relative;
+}
+.flowers_images__img {
+  position: absolute;
+  border-radius: 60px;
+}
+
+.flowers_images img:nth-child(1) {
+  top: 143px;
+  left: 133px;
+  width: 485px;
+}
+
+.flowers_images img:nth-child(2) {
+  top: 357px;
+  left: 782px;
+  width: 485px;
+}
+
+.flowers_images img:nth-child(3) {
+  top: 753px;
+  left: 292px;
+  width: 485px;
+}/*# sourceMappingURL=style.css.map */
